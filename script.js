@@ -8,8 +8,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const passwordError = document.getElementById("errorPassword");
   const confirmPasswordError = document.getElementById("errorConfirmPassword");
   const eyeIcon = document.getElementById('eye-icon');
-  const eyeOffIcon = '<ion-icon name="eye-off-outline" id="eye-off-outline"></ion-icon>';
-  const eyeOnIcon = '<ion-icon name="eye-outline" id="eye-off-outline"></ion-icon>';
+  const eyeOffIcon = '<i class="fas fa-eye-slash" id="eye-off-outline"></i>';
+  const eyeOnIcon = '<i class="fas fa-eye"></i>';
 
   loginForm.addEventListener("submit", function (event) {
     event.preventDefault();
